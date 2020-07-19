@@ -7,10 +7,10 @@ class Footer extends Component {
             <div className="Footer">
                 <div className="FooterItem">
                     <div className="FooterItemTitle">
-                        <b>Lorum ipsum.</b>
+                        <b>About Me</b>
                     </div>
                     <div className="FooterItemContent">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum, libero in suscipit tempus, metus quam egestas purus, sit amet tempus dui quam vitae purus. Maecenas sodales sed metus quis vehicula.
+                        My name is Bram Willem van der Kuip born in Haarlem Netherlands. I studied game development at Mediacollege Amsterdam and currently work at <a target="blank" href="https://azerion.com/">Azerion</a>. 
                     </div>
                 </div>
                 <div className="FooterItem">
@@ -19,9 +19,9 @@ class Footer extends Component {
                     </div>
                     <div className="FooterItemContent">
                         <ul>
-                            <li>vdkuipb@gmail.com</li>
-                            <li>github</li>
-                            <li>linkedin</li>
+                            <li><i className="fa fa-envelope" aria-hidden="true"></i><a href="mailto:vdkuipb@gmail.com">vdkuipb@gmail.com</a></li>
+                            <li><i className="fa fa-github" aria-hidden="true"></i><a target="blank" href="https://github.com/vdkuipb">github</a></li>
+                            <li><i className="fa fa-linkedin" aria-hidden="true"></i><a target="blank" href="https://www.linkedin.com/in/bram-van-der-kuip-8381a9157/">linkedin</a></li>
                         </ul>
                     </div>
                 </div>
