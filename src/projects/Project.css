@@ -5,6 +5,8 @@
 
 .ProjectThumb {
     float: left;
+    width: 150px;
+    height: 150px;
     padding-right: 5px;
 }
 
@@ -12,6 +14,30 @@
     font-size: large;
 }
 
+.ProjectTitleDate {
+    float: right;
+}
+
 .ProjectShortContent {
     padding: 5px;
 }
+
+@media screen and (max-width: 600px) {
+    .ProjectThumb {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ProjectTitle {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .ProjectTitleDate {
+        display: none;
+    }
+}
+
