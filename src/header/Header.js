@@ -9,7 +9,7 @@ class Header extends Component {
                     <b>Bram Willem van der Kuip</b>
                 </div>
                 <div className="HeaderTitle">
-                    Junior Game Developer @azerion
+                    Junior Game Developer at <a target="blank" href="https://azerion.com/">Azerion</a>
                 </div> 
             </pre>  
         );
