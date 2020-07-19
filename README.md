@@ -1,4 +1,4 @@
 # www.bramvanderkuip.nl
 
-## Test
-test
+## About
+<!--START-ABOUT-->My personal portfolio build with react. Simple portfolio that displays my github repositories<!--END-ABOUT-->
