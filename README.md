@@ -8,4 +8,4 @@
 ## About
 <!--START-ABOUT-->My personal portfolio build with react. Simple portfolio that displays my github repositories<!--END-ABOUT-->
 
-<div style="display:none;"><!--START-THUMB-->https://raw.githubusercontent.com/www.bramvanderkuip.nl/master/public/logo192.png<!--END-THUMB--></div>
+<div style="display:none;"><!--START-THUMB-->https://raw.githubusercontent.com/vdkuipb/www.bramvanderkuip.nl/master/public/logo192.png<!--END-THUMB--></div>
