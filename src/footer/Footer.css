@@ -1,0 +1,37 @@
+.Footer {
+    color: black;
+    display: flex;
+    padding: 20px;
+}
+
+.FooterItem {
+    padding: 10px;
+}
+
+.FooterItemTitle {
+    font-size: large;
+}
+
+.FooterItemContent {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .Footer {
+        flex-direction: column;
+    }
+    
+    .FooterItem {
+        width: 100%;
+    }
+    
+    .FooterItemContent {
+        padding: 5px;
+    }
+}

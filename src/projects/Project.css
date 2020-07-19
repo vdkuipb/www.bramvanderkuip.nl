@@ -1,0 +1,17 @@
+.Project {
+    color: black;
+    padding: 10px 0px 10px 0px;
+}
+
+.ProjectThumb {
+    float: left;
+    padding-right: 5px;
+}
+
+.ProjectTitle {
+    font-size: large;
+}
+
+.ProjectShortContent {
+    padding: 5px;
+}
