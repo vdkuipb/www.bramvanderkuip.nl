@@ -16,7 +16,6 @@ class Project extends Component {
         fetch(`https://raw.githubusercontent.com/${this.state.repo.full_name}/master/README.md`, { signal: this.abortController.signal })
         .then(response => response.text())
         .then(response => {
-            console.log(response);
             this.setState({ 
                 about: response.match(new RegExp("<!--START-ABOUT-->(.*)<!--END-ABOUT-->"))[1],
                 thumb: response.match(new RegExp("<!--START-THUMB(.*)END-THUMB-->"))[1],
@@ -29,7 +28,6 @@ class Project extends Component {
     }
 
     render() {
-        console.log(this.state);
         return (
             <div className="Project">
                 <img className="ProjectThumb" alt="thumbnail of project" src={ this.state.thumb }></img>
