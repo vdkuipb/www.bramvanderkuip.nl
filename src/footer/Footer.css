@@ -30,9 +30,11 @@ i {
 @media screen and (max-width: 800px) {
     .Footer {
         flex-direction: column;
+        padding: 10px 0px 10px 0px;
     }
     
     .FooterItem {
+        padding: 10px 0px 10px 0px;
         width: 100%;
     }
     
