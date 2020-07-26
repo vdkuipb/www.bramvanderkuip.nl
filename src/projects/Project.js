@@ -19,7 +19,7 @@ class Project extends Component {
             console.log(response);
             this.setState({ 
                 about: response.match(new RegExp("<!--START-ABOUT-->(.*)<!--END-ABOUT-->"))[1],
-                thumb: response.match(new RegExp("<!--START-THUMB-->(.*)<!--END-THUMB-->"))[1],
+                thumb: response.match(new RegExp("<!--START-THUMB(.*)END-THUMB-->"))[1],
             });
         });
     }
