@@ -31,9 +31,14 @@ class ProjectList extends Component {
     render() {
         return (
             <div className="ProjectList">
+                <div className="ProjectListTitle">
+                    <b>Projects</b>
+                </div>
+                <div className="ProjectListList">
                 { this.state.repos.map((item, i) => (
                         <Project data={item} key={i}></Project>
                 )) }
+                </div>
             </div>  
         );
     }

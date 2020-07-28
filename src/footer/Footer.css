@@ -1,7 +1,6 @@
 .Footer {
-    color: black;
     display: flex;
-    padding: 20px;
+    padding: 0px 20px 10px 20px;
 }
 
 .FooterItem {
@@ -14,7 +13,7 @@
 
 .FooterItemContent {
     min-width: 200px;
-    padding: 5px;
+    padding: 5px 0px 0px 0px;
 }
 
 ul {

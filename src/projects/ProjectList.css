@@ -1,5 +1,18 @@
 .ProjectList {
-    color: black;
+    padding: 10px 30px 10px 30px;
+}
+
+.ProjectListTitle {
+    font-size: large;
+}
+
+.ProjectListList {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 400px) {
+    .ProjectList {
+        padding: 10px 0px 10px 0px;
+    }
 }
