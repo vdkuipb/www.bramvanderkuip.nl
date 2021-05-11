@@ -15,7 +15,7 @@
     float: right;
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 550px) {
     .Header {
         padding: 30px 0px 0px 0px;
     }
