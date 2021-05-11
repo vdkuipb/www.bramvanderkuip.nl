@@ -1,7 +1,7 @@
 <br />
 <p align="center">
     <img src="./public/logo192.png" alt="Logo" width="150" height="150">
-    <h3 align="center">www.bramvanderkuip.nl</h3>
+    <h3 align="center">bramvanderkuip.nl</h3>
 </p>
 
 
